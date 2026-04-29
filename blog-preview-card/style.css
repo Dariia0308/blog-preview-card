@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4d04e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Картка */
+.card {
+  max-width: 350px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 8px 8px 0px #000;
+  overflow: hidden;
+}
+
+/* Зображення */
+.card__image {
+  width: 100%;
+  display: block;
+}
+
+/* Контент */
+.card__content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Категорія */
+.card__category {
+  background: #f4d04e;
+  padding: 5px 10px;
+  font-weight: bold;
+  width: fit-content;
+  border-radius: 4px;
+}
+
+/* Дата */
+.card__date {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Заголовок */
+.card__title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Текст */
+.card__text {
+  font-size: 16px;
+  color: #666;
+}
+
+/* Автор */
+.card__author {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.card__author img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
